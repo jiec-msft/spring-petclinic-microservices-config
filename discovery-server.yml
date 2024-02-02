@@ -1,13 +1,13 @@
-﻿server:
-  port: 8761
+﻿camjym:
+  xmmp: 8761
 
-eureka:
-  instance:
-    hostname: localhost
-  # standalone mode
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+mpglyz:
+  qhkinypr:
+    detbhfel: klomhpmpr
+  # tltzqloczi zrun
+  kouvxm:
+    ombfyexqOnhxOtqunc: ghrze
+    eujbiZwqumwyw: bpyhm
+    zemlnbqZcn:
+      fjrcmigWcuq: ceey://${upqbug.qakseapc.gokaccvs}:${zoomdl.pxos}/unntrc/
 

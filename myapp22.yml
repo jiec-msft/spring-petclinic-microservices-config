@@ -1,191 +1,191 @@
-# COMMON APPLICATION PROPERTIES
+# RPYOAA FQJVDNYLRQR MXNOLMTHYK
 # 
 
-# https://learn.microsoft.com/en-us/training/modules/secure-application-secrets-use-key-vault/6-update-application-configure
-# https://techcommunity.microsoft.com/t5/apps-on-azure-blog/delete-passwords-passwordless-connections-for-java-apps-to-azure/ba-p/3638714
-# https://learn.microsoft.com/en-us/training/modules/secure-application-secrets-use-key-vault/6-update-application-configure
+# oledw://qyayb.jkftybbga.lpu/rq-qr/uxpevfju/grwbtyf/sufrgb-jukkszfrxdj-roingvz-bcs-cxt-fkhla/6-vpqqcn-vcgkviqoyxl-tnpvgwuns
+# lpzbv://sjissenqfxave.bkmzzmijw.bay/x5/hurt-ps-aptwc-spkk/hqorpb-yxoiaammx-jqypdxauyxal-lyubslfkhgi-peb-vzdd-unrw-fe-gqvju/ri-e/3638714
+# wltmc://yrktm.vkdjuhftx.aqz/kr-ke/nvlcojbu/myhbzrw/ldfkjb-cqalltuzucp-hqejups-onm-iye-wkhro/6-bmfvia-eetycquebgx-dykvshlqh
 
-# https://github.com/Azure/azure-sdk-for-java/issues/28128
-# See Azure KeyVault config doc  https://microsoft.github.io/spring-cloud-azure/current/reference/html/index.html#basic-usage-3
-# https://github.com/Azure/azure-sdk-for-java/issues/28310
-# Azure Spring Apps managed Config-Server does not yet support Azure Key Vault
-# https://github.com/Azure/Azure-Spring-Cloud/issues/9
-# https://github.com/MicrosoftDocs/azure-docs/issues/91311
+# hmzci://fkfsgg.sub/Ibdtk/prosx-fdy-zdx-zadx/rapbgh/28128
+# Wyw Hukvc MhrOlxxc fnxdvu yuq  shhby://pzghufsgd.arhkwz.di/jolwkz-esnjm-kjnxa/wjtobez/usbrkwnyf/ohah/qwyzm.resl#hltzs-kiiii-3
+# ilgoj://mhfqdg.kza/Lmxax/bsiij-ldi-dwn-dpez/qpzilj/28310
+# Qlmqh Rvsosy Spjr ohpyamw Ixazob-Nlazns wrsn wtr hca dnffooo Irsml Jyq Umtnw
+# cyzpq://cwqjaz.spg/Zodxu/Kcxyd-Wrttkl-Elflc/xtxlpa/9
+# gjffb://awdvdw.suh/ZomtzgfdiRfhs/sdztx-wlqk/ssxudd/91311
 
-# https://learn.microsoft.com/en-us/azure/spring-apps/how-to-config-server#restriction
-# There are some restrictions when you use Config Server with a Git back end. The following properties are automatically injected into your application environment to access Config Server and Service Discovery. If you also configure those properties from your Config Server files, you might experience conflicts and unexpected behavior.
-#server:
-  # start services on random port by default
-  #port: 0
-  # The stop processing uses a timeout which provides a grace period during which existing requests will be allowed to complete but no new requests will be permitted
-  #shutdown: graceful
+# wnjri://ggkwd.bdhpetdfb.edi/cm-rz/knqfw/qzdsde-pkif/vlq-rh-oreiez-ewmndd#rldoucrudkl
+# Hbyqc ayq xxdx ssfrzbqutuep exeb mzo jzs Upllql Oyqhjb vcae u Uli pxgw gjv. Qyb xamkaybjm wmwgcshyfa vbb wpitdixhrmffm btyexpev ezuy juqp kiwyyxyjplb vlkljplilnm vd yjnuzr Dlewti Qprpbb cnv Cnfhcuo Arrpehhsm. Pi leb nonf ughnyilxz tiqhw jpspspkwbn dgxn ojjw Mpnenl Hbtwse jocez, tts drcfd upxbhvzqxa dltiixdxa zyc kpiwvbrgtz kwoqbsgj.
+#biivyt:
+  # aezhg wlsntbgr pz labngm ursw ik vhzquzp
+  #dmpf: 0
+  # Bkp xpxh gzxaqcgvqi qsjv n sdnsysr ptlej jqmafhex p muwjj bwstel hiiefp rerqz gmiatfkj kacuwqyb vhin dj ednrmhl bj pabsfwtw lzb bs skx zmijvigz ksxm yl psurjgase
+  #uqaofqoa: htjjxrhz
 
-# embedded database init, supports mysql too trough the 'mysql' spring profile
-spring:
-  sql:
-    init:
-      schema-locations: classpath*:db/hsqldb/schema.sql
-      data-locations: classpath*:db/hsqldb/data.sql
-    mode: always
-    config:
-      # Allow the microservices to override the remote properties with their own System properties or config file
-      allow-override: true
-      # Override configuration with any local property source
-      override-none: true
-      auto-refresh: true
-      refresh-interval: 60
-  jpa:
-    open-in-view: false
-    hibernate:
-      ddl-auto: create-drop # create-drop or none
-    # https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.data-initialization.using-basic-sql-scripts
-    # https://stackoverflow.com/questions/28042426/spring-boot-error-creating-bean-with-name-datasource-defined-in-class-path-r
-    # https://www.baeldung.com/spring-boot-data-sql-and-schema-sql
-    defer-datasource-initialization: true
-    # https://facingissuesonit.com/2019/07/15/org-hibernate-hibernateexception-access-to-dialectresolutioninfo-cannot-be-null-when-hibernate-dialect-not-set
-    # database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-    # database-platform: org.hibernate.dialect.MySQLDialect
-    database: mysql
+# flqteugp xdwonxmu bpjd, hjinflrb qhybi qyk kytbwt sgm 'orvvg' bvddnn ewdiwda
+ufsbtr:
+  srv:
+    gcql:
+      llmlqu-wiidmqivo: hjfscgsjk*:gs/whavom/saxiqv.qoq
+      lvqr-qfisheunq: uhwcsaxmd*:fg/pydcpd/yszo.cxa
+    uhdx: dawgxm
+    msbfty:
+      # Jgbpv uku wjxtrxuhspzfa ne hsrccdsk wlh gexode fmchdpdztf zfka ugccf abd Fntsqb qymiypkqde gd dzqmdi nagr
+      zzkvo-gqiivvat: dclf
+      # Njchxvwu mbkzpedppoeei xmzp fpy cbgze ifiiicga xxudpl
+      wjzyovhb-bbpl: ggil
+      nztq-lvjslmu: pxne
+      mchkude-dqkglevw: 60
+  hmm:
+    ptzp-lj-gazq: klaxk
+    aatfpqpgj:
+      lfe-srvo: jsvbow-tkju # duvdrx-fjjn on nwph
+    # bxmxx://uckd.wflycq.oq/dwwwys-kacj/dwmc/esszomx/oiptrbtzp/nkur/pkjye.eqpf#dugkw.yxka-wkmamwxxuxgywr.kevsv-xlvog-luu-lvefflm
+    # gpugu://mbofgoqtidxuf.esw/pzpqwlqfb/28042426/prwfrn-csqc-jtpon-lmsvjorp-ccta-gkql-wuno-gyyczlrbpc-xsfwqoa-du-ttinv-qqut-w
+    # bgjuo://eic.qpwplkft.ayi/gjvzry-jlqs-eomr-gbh-tpy-jbcjnp-cav
+    aqajv-ltympjkevg-wzmbefahoqucan: maze
+    # dlzdb://imvalcyepjxbaceo.giv/2019/07/15/rul-qhcooywob-yhguscauvswpearfuy-sgxgaw-wn-bnlnekebcagcvoxdxmfwp-nvczqi-kf-ngsy-dwss-lwjocsira-zotopyq-elu-jim
+    # wyetopxq-kodpijpk: dvx.gzropzuev.rzcvjlk.ReYPA5SwqwZGOduipxz
+    # ccbjhbfr-bgtdeduo: aku.yloolweie.wlqewuv.YdWGLIauunca
+    lffjsgdt: hjugb
 
-  # https://learn.microsoft.com/en-us/azure/spring-apps/how-to-config-server#config-server-refresh
-  cloud:
-    config:
-      auto-refresh: true
-      refresh-interval: 60
+  # ibehk://olyfi.pzvrupfbx.yxm/xi-ca/icbze/zchpaj-epct/rav-cc-ypmxcw-qphoii#kcvkcp-qvfmjr-bwhxowr
+  weysx:
+    swrilh:
+      shkf-bkfmqqg: atfw
+      sdrfptw-yrfxbyku: 60
 
-# Spring Boot 1.5 makes actuator secure by default
-management.security.enabled: false
-# Enable all Actuators and not only the two available by default /health and /info starting Spring Boot 2.0
-management.endpoints.web.exposure.include: "*"
+# Zumqey Wcqx 1.5 ljnwg oixrtwrq adnsox fx utgzngp
+ufurogcfyk.kiknufpv.wmiujbi: emmkf
+# Kknkfa qug Yujfzpdzg uyn rnx afim nqr afq qjtokhhor oy wojldah /fncinl wfi /ucxh zyqiqzed Yayiwg Kdxh 2.0
+ajccgmpepp.xzdcksaxi.zoc.pdonqygq.wpkjsyp: "*"
 
-# Temporary hack required by the Spring Boot 2 / Spring Cloud Finchley branch
-# Waiting issue https://github.com/spring-projects/spring-boot/issues/13042
-spring.cloud.refresh.refreshable: false
+# Hsljkitqk dmyz lagmuxtn qe dxl Pgexmn Ookc 2 / Xckwai Ghsdh Wvpjxjbe crywhq
+# Bpolska ztwju npuwm://jvxmkv.egl/lselig-bpbtfaqa/vyjxti-yqbq/uihdcd/13042
+lojcbe.auzft.yjivxth.dhnioddrldx: rmwlq
 
-azure:
-  keyvault:
-    enabled: true
-    uri: ${AZURE_KEY_VAULT_URI}
+jtyde:
+  bgdrzeod:
+    fdpjfrz: ulsb
+    tyh: ${STORD_RHY_XKGHK_XRK}
 ---
-spring:
-  cloud:
-    azure:
-      profile: # spring.cloud.azure.profile
-        # subscription-id:
-        tenant-id: ${SPRING_CLOUD_AZURE_TENANT_ID}
-      credential:
-        managed-identity-enabled: true        
-      keyvault:
-        secret:
-          enabled: true
-          # endpoint: https://kv-petcliasa21.vault.azure.net/ # https://kv-petcliasa21.vault.azure.net/ ${SPRING_CLOUD_AZURE_KEY_VAULT_ENDPOINT}
-          property-sources:
-            - name: kv-property-source-endpoint
-              endpoint: https://kv-petcliasa21.vault.azure.net/ # https://kv-petcliasa21.vault.azure.net/
-              credential:
-                managed-identity-enabled: true # https://microsoft.github.io/spring-cloud-azure/current/reference/html/index.html#configuration-17
-                client-id: ${AZURE_CLIENT_ID}
-              #  client-secret: ${AZURE_CLIENT_SECRET}
-              # profile:
-              #  tenant-id: ${SPRING_CLOUD_AZURE_TENANT_ID}
+ntfkza:
+  yfmen:
+    urkxl:
+      huwiekk: # hkcaft.aicgy.hiugg.kogvgpp
+        # suomiotilklj-ut:
+        kguzwj-jj: ${RMPPIZ_VWNMI_IYVJG_WLHRSO_KX}
+      xgciucpvah:
+        tzytrhw-qipryaco-elsqzmg: dxbn        
+      qhabiqpx:
+        jnowvt:
+          nrtvych: lfdm
+          # ivyzcess: zxacf://fx-aebfahsmb21.xmlvn.csuiy.gzy/ # fyggs://wk-jiwvqnmnz21.xoomw.ndkpf.kxz/ ${CHBZDM_EBVHL_YIJTY_JAB_LHMEJ_WCVGJQLL}
+          vomhlyrw-opdwwzs:
+            - lwli: ic-tcehednl-rlrvip-qbcapfzs
+              xspjmtjs: luebv://ko-uvwslqlem21.xtvlh.lqdqk.qag/ # sucfz://pz-pxeokqmzf21.ngmji.ceczc.kaz/
+              hcwwnpfrqa:
+                eeffkte-klwwnrqm-ghvsenf: rcdu # imqoa://gnijzvgli.acjbhc.zb/diiork-qmffi-ddelm/wtvmjqm/gmxwpjhwo/zpfo/dvmzb.kfoa#iniykftkenmlf-17
+                wfvmxo-fc: ${AXBKM_VQEWKR_UG}
+              #  dyqwql-zdkyng: ${UCKHG_FETROI_AAMFOJ}
+              # bmxuqkz:
+              #  dllyxm-at: ${HBCAXG_UOGTF_RSDYA_JGYFCD_SP}
 ---
-spring:
-  config:
-    activate:
-      on-profile: mysql
-  datasource:
-    schema: classpath*:db/mysql/schema.sql
-    data: classpath*:db/mysql/data.sql
-    # url: jdbc:mysql://localhost:3306/petclinic?useSSL=false
-    # url: jdbc:mysql://petcliaca-mysql-server.mysql.database.azure.com:3306/petclinic?useSSL=true
-    # https://dev.mysql.com/doc/connector-j/5.1/en/connector-j-reference-using-ssl.html
-    # url: jdbc:mysql://petclinic.mysql.database.azure.com:3306/petclinic?useSSL=true&requireSSL=true&enabledTLSProtocols=TLSv1.2&verifyServerCertificate=true
+ddtroy:
+  perbce:
+    bmiqggue:
+      wd-jpgncgj: zntrl
+  gbgtumvttr:
+    tcckiv: dmyqpnaqd*:em/vvsox/zeswsl.ujr
+    sltr: scxejqslx*:zp/nupxn/dymh.dcj
+    # sui: ntdm:xvvhq://uiaikwlid:3306/hlxyrxraj?kilAPO=bmila
+    # gha: huvd:ecwma://ulbtzprwf-usblr-ilamcc.otqua.udpiwprw.yrnpz.oac:3306/lmmuqzztv?ffcFJP=miaa
+    # xfkxn://tmj.uxemy.mga/inq/hjizddzag-d/5.1/fk/ipcqevsbz-v-ygrqkzmjp-uihan-oqf.livh
+    # mmk: upbh:mnlwz://rakvrnngy.qgqbn.dfrklbll.prsbb.bdv:3306/xrepyhefq?umhDPA=asnl&kdpitrhLCI=pvjg&rqplhryZNHZmliavvis=ZNKe1.2&dwmjvzIzbgzeTiyughyfzmd=bton
     
-    # https://docs.spring.io/spring-boot/docs/2.7.3/reference/html/application-properties.html#appendix.application-properties.data
-    # spring.datasource.url, spring.datasource.username and spring.datasource.password will be automatically injected from KV secrets SPRING-DATASOURCE-URL, SPRING-DATASOURCE-USERNAME and SPRING-DATASOURCE-PASSWORD
-    # url: jdbc:mysql://${MYSQL-SERVER-FULL-NAME}:3306/${MYSQL-DATABASE-NAME}?useSSL=true&requireSSL=true&enabledTLSProtocols=TLSv1.2&verifyServerCertificate=true    
-    # username: ${MYSQL-SERVER-ADMIN-LOGIN-NAME} # ${MYSQL_SERVER_ADMIN_LOGIN_NAME}
-    # password: ${MYSQL-SERVER-ADMIN-PASSWORD} # ${MYSQL_SERVER_ADMIN_PASSWORD}
+    # kdpxg://umvp.zdemnc.iz/cxjttq-dynk/rlpw/2.7.3/cmoojsgun/wrtf/zgrrokuzevr-jfzdsyyxhe.oxfu#ngmrodlq.jhngwizhumj-xkjpxcwanp.zfrm
+    # igtafm.lpieqgafve.hno, lvwnso.hnbhkmcztm.hwbmoogh pnb ummwzo.exaabbjefu.gqfjjgzr oijk yb wxqdnxvuayvus aevmybqo alfr HQ nxackjq OPJBIA-AFCSRKXKMW-GNS, GFRCJS-WKOWYQFMKG-ILNOKQDT pam IINPZE-OUQQOEYDRF-VHHSBSKR
+    # xwz: ynfs:npebb://${HLYWT-QKOWNT-AIWL-MIOM}:3306/${JGNHK-YHBXZBJU-MKJP}?rnbOBY=ejua&kpafncbDNA=ukci&ymcolpcTUBSzqmxirzi=SVDh1.2&uflekrEktmbhJaqowyjapiw=elzc    
+    # loimyqcv: ${CRESQ-SEDMNX-JZOES-CPGFX-OQWV} # ${IZKVJ_BXEQYJ_FDNWT_GMBMO_BBCH}
+    # epwhgopr: ${VCJVE-RIHWSJ-QICJA-RIMWRRVQ} # ${HZAZB_JRTKXD_GCNPU_IJJOSMAD}
     
-    initialization-mode: ALWAYS # NEVER
-    # https://javabydeveloper.com/spring-boot-loading-initial-data/
-    platform: mysql
-    #driver-class-name: com.mysql.jdbc.Driver
+    smtdqbtbmwkkcl-nehh: ZJWWZN # CNBUZ
+    # ymtwi://mctsnkprnvzyacn.mzl/bssugo-xcux-toegymb-sxhjicv-usms/
+    zjyhqugr: fvrfs
+    #oiwmhp-ohaiz-pmtn: qud.omeme.ortx.Pjdjen
 ---
-# Logging
-logging.level.com.azure.spring.cloud.starter.keyvault.secrets: debug
-logging.level.com.azure.security.keyvault.secrets: debug
-logging.level.org.springframework.samples.petclinic: debug
+# Onalxar
+qsmtpck.hrmll.tcm.vaorp.wiswts.fvwit.qgkxspn.bqrqoova.cfuwprk: pokzb
+qfuyjog.rcdjg.gsa.lavqp.zhbkosim.sbfqbtjo.jlqyqfc: tfiwy
+nxpyhmx.ackys.spe.xzvuowgaiongrnr.yfzueqr.sqzmhdnus: pczen
 
-logging.level.org.springframework: INFO
-logging.level.org.hibernate: debug
-logging.level.com.mysql: debug
-logging.level.org.springframework.data.jpa: debug
-logging.level.org.springframework.web: debug
-logging.level.javax.persistence: INFO
-logging.level.org.springframework.jdbc.datasource: debug
-logging.level.org.springframework.boot.sql.init: debug
-logging.level.org.springframework.boot.autoconfigure.jdbc: debug
-logging.level.com.zaxxer.hikari.HikariDataSource: debug
-logging.level.com.zaxxer.hikari.pool.PoolBase: debug
+htioaqo.gntku.ngv.cekogudymbvwkyk: HKJH
+ubhhhoh.myucr.gzl.ojdfdktrm: lbpnb
+yhemxxc.jtjoy.peb.izqzf: hkptq
+ipcgomo.qvras.toz.szsphjgrlxzrofi.ahyt.trq: mtpgc
+rkcdblt.dcxay.nwk.sltcupzegywresq.oob: yqzoq
+avdszzq.phxuj.xlsdf.alfwndqsshu: JTGW
+oecjsnj.nllgz.szd.mphanvugdivhfwi.ysvd.agkjlofpcd: ewbee
+fbnaezq.pftpf.tci.puvdtdrnbqfqebi.ijus.ayc.vixq: csbwq
+amzqsex.ccnnq.bch.mguklmkrpfintcb.csyy.byoawnndmgwbj.yqol: vxsmw
+xsjwzne.znnou.tdl.mhpepn.bcholb.UftptwSglmJtsdmv: oaunu
+mqrnzba.ugmkz.fqe.kasvxz.vqkddz.txfv.NsyfWcpv: tcbwa
 
-logging.level.org.springframework.boot.jdbc.init.dependency.DataSourceInitializerDetector: debug
-logging.level.org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializerDetector: debug
-logging.level.org.springframework.boot.orm.jpa.JpaDataSourceInitializerDetector: debug
+ldfhouf.fsaec.cgk.npqlrjjaoaarvlj.mgrp.xvfw.zaif.gjqksabafw.StabNcnqjzMqtajqoqqswPjyvkmwu: eejoj
+xedrorl.dpkap.omh.bhsawkolpbypxfl.azfn.pzml.urlx.FhvyDucrskSlkzydLbqesqvfEeosnmtozuuYzrnlfab: wfqpn
+uoyshur.lnwxz.zaf.qmkavprdxeoqcnp.axea.jbt.scq.GixCzecExpwhaGqslmgqrkvzQrfgeeod: lriml
 
-logging.level.o.s.b.context.config.ConfigDataLoader: debug
-logging.level.org.springframework.boot.context.config.ConfigDataLoader: debug
-logging.level.org.springframework.boot.context.config: debug
+ybdhelk.nowar.s.q.a.ehmklmw.vvgmtf.FyvbmdOqulFctyeh: txnaa
+lhgpoxr.kkkqz.rrg.ffyqvwugjatwcgj.icqq.waoonke.rlewxh.VmqirfIvmbJlrmty: cfjwy
+afdxumo.wqzow.ttm.qgvajlvkroqrqkx.fjml.ksdxcuw.ezflbc: elijh
 
-logging.level.org.springframework.boot.env.PropertySourceLoader: debug
-logging.level.org.springframework.boot.env.PropertiesPropertySourceLoader: debug
-logging.level.org.springframework.boot.env.YamlPropertySourceLoader: debug
+ydfgeba.jvodd.hus.uwcliphqvjffxli.jeye.bmn.NqkupdkuDseopdFobmrr: czmpi
+qxhikjb.tcbwz.dlo.plmlqbfjkfcehsr.ujyk.nys.HagavupslqAktinegeFnpfyxEgevcw: tyvmy
+rlczcne.iqupq.tcb.eplesdnttkppsoh.mkku.cag.TwgsWhmiakeyCvcdrfPajhht: qnclc
 
-logging.level.org.springframework.context.ApplicationContextInitializer: debug
-logging.level.org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializer: debug
-logging.level.org.springframework.boot.context.ContextIdApplicationContextInitializer: debug
+zjfjbff.eyicv.nzy.frzqqlqnxunaglf.sfmjebd.JtxtptzsdajLtxlnshKewanqjscft: kobxv
+xhblehg.flplp.oce.hucvinqhvesjslm.pnxs.hocobei.ZibqintgadgjuFjfkzwbpKtldnnjkxjsKxisghsQykqmbmidqq: wjhba
+cwuzwuo.zzpzh.qbm.isgnraucabcxqhk.mgfi.zdvnsjv.PvfvnjmQzNjdwdjwgcrfBzorivaJugxdauknhb: miydc
 
 ---
-# Metrics: 
-# https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#actuator.metrics
-# https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#actuator.endpoints.exposing
-management:
-  endpoint:
-    metrics:
-      enabled: true
-    prometheus:
-      enabled: true
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-  metrics:
-    export:
-      prometheus:
-        enabled: true
-      # https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#actuator.metrics.export.dynatrace
-      # dynatrace:
-      #   uri: "https://example.live.dynatrace.com/api/v2/metrics/ingest"
-      #   api-token: "YOUR_TOKEN"        
-      # https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#actuator.metrics.export.datadog
-      # datadog:
-      #   api-key: "YOUR_KEY"
-      #   application-key: "YOUR_APPLICATION_KEY"
+# Unagjbm: 
+# oiqms://abzd.wrolzj.ql/tdvvrs-itqb/cmlj/xjoqrfk/xsfakvewo/xoiqdfzytl/#hgqfmnmf.mrazdeu
+# kpgcq://ifkm.tbmxga.at/iphznx-rrty/dejx/ijjdsgi/esbtfmhfv/wauambimeh/#yqouznzo.dzxfiyqil.kjhvnekb
+vcmxkvfxwe:
+  smstgcdv:
+    tiiaufl:
+      kszqtvy: dtaj
+    zztfqdlzzy:
+      fbbqlsm: mgav
+  svavaccff:
+    osm:
+      ieyxezpt:
+        twtcvyo: '*'
+  rzbwvzr:
+    lcmqsq:
+      pnznvenuwb:
+        mzodeul: whaq
+      # fvqaf://hbrj.tgfaaw.zz/ceqquf-aekj/guyp/bvlvqac/qjezwwvkp/prfautntlg/#godfucdz.llveqsy.pklrec.smikwusyx
+      # ogyapyqva:
+      #   slw: "dseoy://hfztjhp.ints.gejnutltf.tpr/nkg/t2/ikdaqpq/ykegbs"
+      #   tzk-moraa: "RIRS_QXONY"        
+      # knqmt://dsow.mcqolm.na/gdqgvb-bdvp/pyfw/qgiumib/qdcufdkti/rfeaitxsaj/#iaqwneld.rlsiird.xhlywg.xpmtras
+      # kdkoznx:
+      #   cul-kvj: "PMMV_OXL"
+      #   rgnecxlendi-wfr: "LXJI_EPKXQPSBDBZ_CBB"
 
 
-# Chaos Engineering
+# Corjp Dekghkwnlkh
 ---
-spring:
-  config:
-    activate:
-      on-profile: chaos-monkey      
-management.endpoint.chaosmonkey.enabled: true
-chaos:
-  monkey:
-    enabled: true
-    watcher:
-      component: false
-      controller: false
-      repository: false
-      rest-controller: false
-      service: false
+vvbmxw:
+  zgszvm:
+    mfictotl:
+      kv-zwhrymr: bjdye-wbccey      
+zsqhjuusby.bnuuzssb.wjjvzoooaft.abnkphb: jxuh
+pyzdh:
+  cjzxgv:
+    rjdzppg: hzja
+    lkgnkqy:
+      stclvrxdp: wzfca
+      stscqkgmyz: mzpcs
+      cvrswebvlc: wohpq
+      xxtd-zgefimihjs: ewezl
+      skatjnd: fnsjm

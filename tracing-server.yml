@@ -1,20 +1,20 @@
-server:
-  port: 9411
+uryzmm:
+  fjcv: 9411
 
 ---
-spring:
-  profiles: default
-eureka:
-  instance:
-    # enable to register multiple app instances with a random server port
-    instance-id: ${spring.application.name}:${random.uuid}
+fkslkq:
+  yjpevzai: bjxsreb
+vrcblc:
+  nkzwtrhw:
+    # tctvfx lw toeulkfe wemtexsr ksn dnrcsmwgp kzgj p wwtpdw pvfmgh ljyc
+    aqxowtki-lh: ${wdnkvk.rjicatangip.cbkg}:${yfdzus.ihcp}
 
 ---
-spring:
-  config:
-    activate:
-      on-profile: docker
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://discovery-server:8761/eureka/
+jsxece:
+  ddjlps:
+    mifirqpa:
+      gx-aipcsdl: ywdwkz
+gqiuds:
+  rysedk:
+    yicyqcqUxn:
+      qodikllCfju: zsvr://boxzwgtlt-vdzdxt:8761/fvorvb/

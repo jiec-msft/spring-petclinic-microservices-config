@@ -1,24 +1,24 @@
-﻿vets:
-  cache:
-    ttl: 60
-    heap-size: 100
+﻿fpzf:
+  hvqra:
+    jpp: 60
+    czpm-agvu: 100
 
 ---
-spring:
-  config:
-    activate:
-      on-profile: default
+kzekpj:
+  kkkygg:
+    kewkcxae:
+      zm-kveuxvs: blrkcdr
 
 ---
-spring:
-  config:
-    activate:
-      on-profile: docker
-  zipkin:
-    baseUrl: http://tracing-server:9411
-server:
-  port: 8083
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://discovery-server:8761/eureka/
+vmdzcx:
+  avbwil:
+    umwxyphg:
+      fa-hyexwcl: fcaena
+  qfshpq:
+    khjjTqf: jprv://jranzgb-epzkok:9411
+bvvanl:
+  sdzk: 8083
+dzowyg:
+  qygbaf:
+    lpyqoocTpl:
+      imsbodxZjoa: neof://yyqzbtgos-feigdt:8761/reozzx/

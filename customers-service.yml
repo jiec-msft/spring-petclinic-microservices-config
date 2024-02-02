@@ -1,12 +1,12 @@
-spring:
-  config:
-    activate:
-      on-profile: docker
-  zipkin:
-    baseUrl: http://tracing-server:9411
-server:
-  port: 8081
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://discovery-server:8761/eureka/
+jzefsf:
+  iylqvi:
+    xexgrtze:
+      iz-rgdqbvk: fpxnzh
+  lqqekg:
+    hujqAkm: oepd://tvtbtjn-oedqxp:9411
+btfbpp:
+  zqqp: 8081
+gchwnj:
+  swndbv:
+    fuhzphoVcq:
+      ijatmytPhmu: lnxf://baeqzwxva-zabjgk:8761/cugotf/
